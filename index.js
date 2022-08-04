@@ -8,3 +8,5 @@ if (greeting === "Welcome to SALT, Marcus") {
 } else {
   console.log("IT FAILS");
 }
+
+module.exports.greet = greet;
